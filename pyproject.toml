@@ -24,7 +24,7 @@ keywords = ["Looker", "cli", "img", "viewer", "FarAway", "LookerCore"]
 [tool.setuptools]
 name = "LookerCore"
 version = "0.1.0"
-package_dir = {"": "src"}
+package_dir = {""=  "src"}
 packages = ["LookerCore"]
 
 [tool.setuptools.find]
