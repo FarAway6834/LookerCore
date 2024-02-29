@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+requires-python = ">= 3.10"
+version = "1.0"
+dependencies = [
+  "pillow",
+  "colorama"
+]
+authors = [
+  {name = "FarAway", email = "faway6834@gmail.com"}
+]
+maintainers = [
+  {name = "FarAway", email = "faway6834@gmail.com"}
+]
+description = "Looker, an cli img viewer."
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["Looker", "cli", "img", "viewer", "FarAway"]
+
+[project.scripts]
+looker = "looker:main"
+
+[project.gui-scripts]
+looker-win = "looker:main"
+
+[project.urls]
+Homepage = "https://FarAway6834.github.io/LookerCore"
+Repository = "https://github.com/FarAway6834/LookerCore.git"
+Issues = "https://github.com/FarAway6834/LookerCore/issues"
