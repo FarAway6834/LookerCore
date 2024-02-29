@@ -1,0 +1,1 @@
+this sw need python and git.
